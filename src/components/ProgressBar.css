@@ -3,6 +3,12 @@
   margin-bottom: 20px;
 }
 
+.progress-container h1 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
 .progress-bar {
   width: 100%;
   height: 8px;
@@ -30,7 +36,7 @@
   height: 35px;
   border-radius: 50%;
   background: #ccc;
-  color: white;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,4 +45,26 @@
 
 .circle.active {
   background: #4caf50;
+}
+
+.progress-container p {
+  color: #666;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .progress-container h1 {
+    font-size: 28px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .progress-container p {
+    font-size: 16px;
+  }
 }
